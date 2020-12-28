@@ -104,7 +104,8 @@
 /* SERVIÇOS */
 #servicos{
     text-align: center;  
-    padding: 10rem;
+    padding: 5em;
+    /* margin: 50px; */
     background: black;
     color:white;
 }
@@ -119,20 +120,42 @@
 .servicos-flex{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     /* margin: 0% 10% 0% 10%; */
-    text-align: center;
+    /* text-align: center; */
+    justify-content: center;
 }
 .servicos-flex img{
     width: 100%;
+    padding: 1rem;
     max-width: 50%;
 }
+
 .service-1, .service-2, .service-3, .service-4, .service-5{
+    border-radius: 15px;
     background: #191919;;
-    margin-left: 15px;
-    padding: 30px;
+    margin: 15px;
+    padding: 20px;
     border-radius: 15px;
     width: 100%;
-    max-width: 50%;
+    max-width: 22%;
+    box-shadow: 1px 5px 10px 1px  rgba(134, 139, 124, 0.555);    
+
+    /* height: 100%; */
+    /* max-height: 90vh; */
+    /* padding: 5rem; */
+}
+
+#servicos .text{
+    width: 100%;
+    max-width: 60vw;
+    margin-top: 1rem;
+}
+
+.sobre-service span{
+    color: rgb(228, 222, 222);
+    font-weight: 700;
+    font-size: 1.22rem;
 }
 /* HABILIDADES */
 #habilidades{
