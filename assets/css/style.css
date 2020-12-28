@@ -1,0 +1,436 @@
+/* HEADER */
+#header{
+    width: 100%;
+    /* background: #191919; */
+    /* color:white; */
+    position: fixed;
+    box-shadow: 0px 10px 10px rgba(177, 250, 32, 0.192);    
+    z-index: 999; 
+}
+
+.navbar ul li a{
+    color:white;
+    font-size: 1.10rem;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.navbar ul li a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(80, 155, 226);
+}
+
+/*MAIN*/
+
+
+
+/* MAIN */
+#main{
+
+    /* width: 900px; */
+    /* margin: 0 auto; */
+    height: 109vh;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background: black;
+    color: white;
+    padding-left: 15rem;
+    padding-top: 12rem;
+
+    /* margin-left: 200px; */
+}
+
+.name-introducao {
+    position: absolute;
+    /* margin-left: 10px; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 40px; */
+    /* margin-top: 100px; */
+    /* font-size: 2.15em; */
+}
+.name-introducao img{
+    width: 150px;
+    height: 15%;
+    margin-bottom: 2rem;
+    margin-left: 70px;
+}
+.name-introducao span{
+    font-size: 3rem;
+    margin-top: -90px;
+}
+
+.imagem-ilustracao img{
+    width: 100%;
+    max-width: 60%;
+    margin-left: 50px;
+}
+
+/* SOBRE */
+#sobre{
+    /* height: 90vh; */
+    text-align: center;
+    align-items: center;
+    background: #191919;
+    color:white;
+    padding: 10rem;
+}
+.text-sobre h1{
+    color:rgb(80, 155, 226);
+    font-weight: 600;
+    padding:1rem;
+    font-size: 3rem;
+}
+.imagem-descricao img{
+    width: 100%;
+    max-width: 30%;
+}
+.text-sobre p{
+    width: 100%;
+    max-width: 100%;
+}
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+}
+.redes-sociais img{
+    width: 100%;
+    max-width: 10%;
+}
+/* SERVIÇOS */
+#servicos{
+    text-align: center;  
+    padding: 10rem;
+    background: black;
+    color:white;
+}
+#servicos h1{
+    padding-top: 3rem;
+    margin-bottom: 5%;
+    font-size: 3rem;
+    color:rgb(80, 155, 226);
+    font-weight: 600;
+
+}
+.servicos-flex{
+    display: flex;
+    flex-direction: row;
+    /* margin: 0% 10% 0% 10%; */
+    text-align: center;
+}
+.servicos-flex img{
+    width: 100%;
+    max-width: 50%;
+}
+.service-1, .service-2, .service-3, .service-4, .service-5{
+    background: #191919;;
+    margin-left: 15px;
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 50%;
+}
+/* HABILIDADES */
+#habilidades{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: #191919;
+    text-align: center;
+    color: white;
+}
+#habilidades h1{
+    color:rgb(80, 155, 226);
+    font-weight: 600;
+    padding:1rem;
+    font-size: 3rem;
+}
+.habilidades-flex img{
+    width: 100%;
+    max-width: 10%;
+}
+.habilidades-flex{
+    margin: 0% 10% 0% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.html, .css, .javascript, .mysql, .wordpress, .bootstrap{
+    width: 100%;
+    max-width: 30%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.lista-estrelas{
+    background-image: url(../img/estrela.svg) ;
+    /* background-size: 20px; */
+    background-repeat: repeat-x;
+    height: 100%;
+    max-height: 30%;
+    margin: 0 auto;
+    /* width: 100%; */
+}
+.habilidades-flex h5{
+    font-size:1rem;
+}
+
+/* PORTFÓLIO */
+#portfolio{
+    text-align: center;
+    background: black;
+    color: white;
+    max-height: 100vh;
+    height: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+#portfolio h1{
+    color:rgb(80, 155, 226);
+    font-weight: 600;
+    padding:1rem;
+    font-size: 3rem;
+}
+.lista-portfolio img{
+    width: 100%;
+    max-width: 95%;
+    margin: 10px;
+
+}
+
+.lista-portfolio{
+    display: flex;
+    margin: 2rem;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+}
+
+
+
+
+
+
+
+/* CONTATO */
+#contato{
+    background: #191919;
+    text-align: center;
+    color:white;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+#contato h1{
+    padding: 1rem;
+}
+/* FOOTER */
+#footer{
+    height: 10vh;
+    background: black;
+    color:white;
+    text-align: center;
+}
+.lista-redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px){
+    .menu-header ul{
+        /* margin-right: 500px; */
+        margin-left: -150px;
+    }
+    .name-introducao {
+        margin-left: -100px;
+    }    
+}
+
+@media (max-width: 425px){
+    
+    .servicos-flex{
+        flex-direction: column;
+    }
+    .habilidades-flex{
+        flex-direction: column;
+    }
+    .lista-portfolio{
+        flex-direction: column;
+    }
+    .imagem-descricao{
+        display: none;
+    }
+    #main{
+        /* height: 80vh; */
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+    }
+    .name-introducao {
+        position: relative;
+        margin-top: 4rem;
+        /* text-align: center; */
+    }
+    .name-introducao img{
+        display: none;
+    }
+    .imagem-ilustracao img{
+        max-width: 90%;
+        margin-left: 0px;
+    }
+    .name-introducao span{
+        margin-left: 20%;
+        /* display: inline; */
+        width: 100%;
+    }
+    .name-introducao p{
+        margin-left: 40%;
+    }
+    .imagem-descricao{
+        display: none;
+    }
+    #sobre{
+        padding: 1rem;
+    }
+    .text-sobre {
+        width: 100%;
+    }
+
+    .redes-sociais img{
+        max-width: 30%;
+    }
+    .habilidades-flex img{
+        max-width: 50%;
+    }
+    /* .html, .css, .javascript, .mysql, .wordpress, .bootstrap{
+        width: 30%;
+        margin-top: 52%;
+        margin-bottom: 30%;
+    } */
+    #servicos{
+        padding: 10px;
+    }
+
+    .servicos-flex{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .servicos-flex img{
+        max-width: 200%    
+        
+    }
+
+    .service-1, .service-2, .service-3, .service-4, .service-5{
+        margin-top: 2rem;
+        max-width:80%;
+        /* margin-right: 400px; */
+        margin-left: 2rem;
+        /* max-width: 150%; */
+    }
+
+
+    .habilidades-flex{
+        flex-direction: row;
+    }
+    .html, .css, .javascript, .mysql, .wordpress, .bootstrap{
+        max-width: 70%;
+    }
+
+
+    .lista-estrelas{
+        background-image: url(../img/estrela.svg) ;
+        /* background-size: 20px; */
+        background-repeat: repeat-x;
+        height: 100%;
+        max-height: 10%;
+        margin: 0 ato;
+    }
+
+
+    #portfolio{
+    max-height: 130vh;
+    }
+
+    .menu-header{
+        display: none;
+    }
+    .dropdown{
+        /* background: white; */
+        display:block;
+        right:0;
+        z-index: 999;
+        position: absolute;
+        /* width: 100%; */
+        /* max-width: 10%; */
+    }
+    .dropdown ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -8vh;
+        justify-content: center;
+        margin-left: -400px;
+        background-color: gray;
+        height:90vh;
+        /* width: 10%; */
+    }
+    .dropdown ul li a{
+        color:white;
+    }
+    .dropdown ul li{
+        padding: 10px;
+        
+        /* line-height: 30px; */
+    }
+
+    .menu-header ul li a{
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .dropdown-menu{
+    display: none;
+    width: 250%;
+    z-index: 0;
+    /* top: 100%; */
+    /* left: 0; */
+    /* margin-left: -300px; */
+    /* z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+        color:white;
+    text-align: left;
+    list-style: none;
+    background-color: rgb(189, 37, 37);
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem; */
+    }
+
+
+}
+/* 
+
+@media (max-width: 360px){
+    .menu-header, .logo {
+        display: none;
+    }
+    .main-flex{
+        flex-direction:column
+    }
+}  */
