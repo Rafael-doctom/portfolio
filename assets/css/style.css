@@ -247,21 +247,27 @@
 
 /* CONTATO */
 #contato{
-    background: #191919;
+    background: black;
     text-align: center;
     color:white;
     padding-top: 4rem;
     padding-bottom: 5rem;
 }
 #contato h1{
-    padding: 1rem;
+    color:rgb(80, 155, 226);
+    font-weight: 600;
+    padding:1rem;
+    font-size: 3rem;
 }
 /* FOOTER */
 #footer{
-    height: 10vh;
-    background: black;
+    height: 20vh;
+    background: #191919;
     color:white;
     text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
 }
 .lista-redes{
     display: flex;
