@@ -1,8 +1,6 @@
-/* HEADER */
+/* HEADER
 #header{
     width: 100%;
-    /* background: #191919; */
-    /* color:white; */
     position: fixed;
     box-shadow: 0px 10px 10px rgba(177, 250, 32, 0.192);    
     z-index: 999; 
@@ -25,13 +23,10 @@
 
 /*MAIN*/
 
+/* 
 
-
-/* MAIN */
 #main{
 
-    /* width: 900px; */
-    /* margin: 0 auto; */
     height: 109vh;
     align-items: center;
     display: flex;
@@ -41,17 +36,12 @@
     padding-left: 15rem;
     padding-top: 12rem;
 
-    /* margin-left: 200px; */
 }
 
 .name-introducao {
     position: absolute;
-    /* margin-left: 10px; */
     display: flex;
     flex-direction: column;
-    /* padding: 40px; */
-    /* margin-top: 100px; */
-    /* font-size: 2.15em; */
 }
 .name-introducao img{
     width: 150px;
@@ -68,7 +58,85 @@
     width: 100%;
     max-width: 60%;
     margin-left: 50px;
+} */ 
+
+/* HEADER */
+#header{
+    padding-top: 5vh;
+    background: black;
 }
+
+#header .menu ul li{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+#header .menu ul li a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(80, 155, 226);
+
+}
+
+
+#header .menu ul li a{
+    color:white;
+    font-size: 1.10rem;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* MAIN */
+#main{
+    /* height: 55vh; */
+    background: black;
+    color:white;
+    display: flex;
+    padding-bottom: 20vh;
+}
+#main .introducao{
+   
+    padding: 2rem;
+    padding-top:20vh;
+}
+#main .introducao .text{
+    /* width: 110%; */
+    display: flex;
+    flex-direction: column;
+    /* max-width: 40% */
+}
+#main .introducao .text a{
+    width: 100%;
+    max-width: 40%;
+    margin-top: 2vh ;
+    /* text-align:  jus; */
+}
+.introducao strong{
+    font-weight: 900;
+    font-size: 3rem;
+}
+.introducao span{
+    font-weight: 950;
+    font-size: 3rem;
+    color:#0086FF;
+}
+
+
+.imagem-ilustracao img{
+    width: 100%;
+    max-width:90%;
+    margin-top: 5vh;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* SOBRE */
 #sobre{
@@ -139,13 +207,13 @@
 
 .service-1, .service-2, .service-3, .service-4, .service-5{
     border-radius: 15px;
-    background: #191919;;
+    background: #080A0A;;
     margin: 15px;
     padding: 20px;
     border-radius: 15px;
     width: 100%;
     max-width: 22%;
-    box-shadow: 1px 5px 10px 1px  rgba(134, 139, 124, 0.555);    
+    box-shadow: 1px 1px 1px 1px  rgba(134, 139, 124, 0.555);    
     /* height: 100%; */
     /* max-height: 90vh; */
     /* padding: 5rem; */
@@ -290,32 +358,32 @@
     .imagem-descricao{
         display: none;
     }
+    
     #main{
         /* height: 80vh; */
         flex-direction: column;
         padding: 0px;
         justify-content: center;
     }
-    .name-introducao {
+    /* .name-introducao {
         position: relative;
         margin-top: 4rem;
-        /* text-align: center; */
-    }
-    .name-introducao img{
+    } */
+    /* .name-introducao img{
         display: none;
     }
     .imagem-ilustracao img{
         max-width: 90%;
         margin-left: 0px;
-    }
-    .name-introducao span{
+    } */
+    /* .name-introducao span{
         margin-left: 20%;
         /* display: inline; */
         width: 100%;
-    }
-    .name-introducao p{
+    /* }  */
+    /* .name-introducao p{
         margin-left: 40%;
-    }
+    } */
     .imagem-descricao{
         display: none;
     }
@@ -391,27 +459,62 @@
     }
 
     .navbar{
-        background: #232323;
-        /* max-height: 420vh; */
-        /* height: 100%; */
-        /* max-height: 90%; */
+       
     }
     .navbar-collapse{
-        /* height: 100%; */
-        /* margin-top:45vh; */
         text-align: center;
     }
     .navbar-nav ul{
-                /* line-height: 30px; */
-
-        /* margin-top: -50vh; */
-        /* text-align: left; */
+           
     }
     .navbar-nav  li   {
-        padding: 10px;
+       padding: 10px;
        margin-top: 25px;
        background: rgba(114, 103, 103, 0.048);
     }
+
+   /* MAIN */
+#main{
+    /* height: 55vh; */
+    background: black;
+    color:white;
+    display: flex;
+    padding-bottom: 40vh;
+}#main .introducao .text{
+    /* width:120%; */
+    /* max-width: 20% */
+}
+.introducao strong{
+    font-weight: 900;
+    font-size: 2rem;
+}
+.introducao span{
+    font-weight: 950;
+    font-size: 2rem;
+    color:#0086FF;
+}
+
+
+.imagem-ilustracao {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
