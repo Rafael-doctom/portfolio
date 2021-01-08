@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
 /* HEADER
 #header{
     width: 100%;
@@ -64,22 +67,24 @@
 #header{
     padding-top: 5vh;
     background: black;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
-#header .menu ul li{
+#header .navbar-collapse  ul li{
     margin-left: 1rem;
     margin-right: 1rem;
 
 }
 
-#header .menu ul li a:hover{
+#header .navbar-collapse  ul li a:hover{
     cursor: pointer;
     border-bottom: 2px solid rgb(80, 155, 226);
 
 }
 
 
-#header .menu ul li a{
+#header .navbar-collapse ul li a{
     color:white;
     font-size: 1.10rem;
     padding: 10px;
@@ -93,6 +98,8 @@
     color:white;
     display: flex;
     padding-bottom: 20vh;
+    /* font-family: 'Open Sans', sans-serif; */
+
 }
 #main .introducao{
    
@@ -140,12 +147,16 @@
 
 /* SOBRE */
 #sobre{
+    font-family: 'Open Sans', sans-serif;
     /* height: 90vh; */
     text-align: center;
     align-items: center;
     background: #191919;
     color:white;
     padding: 10rem;
+}
+#sobre a{
+    text-decoration: none;
 }
 .text-sobre h1{
     color:rgb(80, 155, 226);
@@ -177,6 +188,7 @@
 }
 /* SERVIÇOS */
 #servicos{
+    font-family: 'Open Sans', sans-serif;
     text-align: center;  
     padding: 5em;
     /* margin: 50px; */
@@ -233,6 +245,7 @@
 }
 /* HABILIDADES */
 #habilidades{
+    font-family: 'Open Sans', sans-serif;
     padding-top: 5rem;
     padding-bottom: 5rem;
     background: #191919;
@@ -278,6 +291,7 @@
 
 /* PORTFÓLIO */
 #portfolio{
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     background: black;
     color: white;
@@ -305,6 +319,7 @@
 }
 /* CONTATO */
 #contato{
+    font-family: 'Open Sans', sans-serif;
     background: black;
     text-align: center;
     color:white;
@@ -332,7 +347,13 @@
     flex-direction: row;
     justify-content: center;
 }
+.lista-redes li{
+    margin-left: 10px;
+}
+.lista-redes li a{
+    text-decoration: none;
 
+}
 
 @media (max-width: 768px){
     .menu-header ul{
@@ -379,7 +400,6 @@
     /* .name-introducao span{
         margin-left: 20%;
         /* display: inline; */
-        width: 100%;
     /* }  */
     /* .name-introducao p{
         margin-left: 40%;
@@ -449,29 +469,22 @@
     max-height: 130vh;
     }
 
-    .menu-header{
-        display: none;
-    }
+  
     
 
-    .menu-header ul li a{
-        cursor: pointer;
-    }
-
-    .navbar{
-       
-    }
-    .navbar-collapse{
-        text-align: center;
-    }
-    .navbar-nav ul{
-           
-    }
+    
+   
+  
     .navbar-nav  li   {
        padding: 10px;
        margin-top: 25px;
        background: rgba(114, 103, 103, 0.048);
     }
+    #header .navbar-collapse {
+        text-align:center;
+        padding:1rem;
+    }
+
 
    /* MAIN */
 #main{
@@ -480,9 +493,6 @@
     color:white;
     display: flex;
     padding-bottom: 40vh;
-}#main .introducao .text{
-    /* width:120%; */
-    /* max-width: 20% */
 }
 .introducao strong{
     font-weight: 900;
