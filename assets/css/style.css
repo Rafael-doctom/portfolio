@@ -295,8 +295,6 @@
     text-align: center;
     background: black;
     color: white;
-    max-height: 100vh;
-    height: 100%;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -381,29 +379,11 @@
     }
     
     #main{
-        /* height: 80vh; */
         flex-direction: column;
         padding: 0px;
         justify-content: center;
     }
-    /* .name-introducao {
-        position: relative;
-        margin-top: 4rem;
-    } */
-    /* .name-introducao img{
-        display: none;
-    }
-    .imagem-ilustracao img{
-        max-width: 90%;
-        margin-left: 0px;
-    } */
-    /* .name-introducao span{
-        margin-left: 20%;
-        /* display: inline; */
-    /* }  */
-    /* .name-introducao p{
-        margin-left: 40%;
-    } */
+    
     .imagem-descricao{
         display: none;
     }
@@ -420,15 +400,9 @@
     .habilidades-flex img{
         max-width: 50%;
     }
-    /* .html, .css, .javascript, .mysql, .wordpress, .bootstrap{
-        width: 30%;
-        margin-top: 52%;
-        margin-bottom: 30%;
-    } */
     #servicos{
         padding: 10px;
     }
-
     .servicos-flex{
         flex-direction: column;
         justify-content: center;
@@ -437,44 +411,29 @@
         max-width: 200%    
         
     }
-
     .service-1, .service-2, .service-3, .service-4, .service-5{
         margin-top: 2rem;
         max-width:90%;
-        /* margin-right: 400px; */
-        /* margin-left: 2rem; */
-        /* max-width: 150%; */
     }
-
-
     .habilidades-flex{
         flex-direction: row;
     }
     .html, .css, .javascript, .mysql, .wordpress, .bootstrap{
         max-width: 70%;
     }
-
-
     .lista-estrelas{
         background-image: url(../img/estrela.svg) ;
-        /* background-size: 20px; */
         background-repeat: repeat-x;
         height: 100%;
         max-height: 10%;
         margin: 0 ato;
     }
-
-
     #portfolio{
     max-height: 130vh;
     }
-
-  
-    
-
-    
-   
-  
+    .lista-portfolio ul{
+        flex-direction:column;
+    }
     .navbar-nav  li   {
        padding: 10px;
        margin-top: 25px;
@@ -484,11 +443,8 @@
         text-align:center;
         padding:1rem;
     }
-
-
    /* MAIN */
 #main{
-    /* height: 55vh; */
     background: black;
     color:white;
     display: flex;
@@ -503,41 +459,7 @@
     font-size: 2rem;
     color:#0086FF;
 }
-
-
 .imagem-ilustracao {
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-/* 
-
-@media (max-width: 360px){
-    .menu-header, .logo {
-        display: none;
-    }
-    .main-flex{
-        flex-direction:column
-    }
-}  */
