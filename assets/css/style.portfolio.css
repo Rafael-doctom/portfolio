@@ -1,0 +1,44 @@
+#header{
+    padding-top: 1vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header .navbar-collapse  ul li{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+#header .navbar-collapse  ul li a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(80, 155, 226);
+}
+
+
+#header .navbar-collapse ul li a{
+    color:black;
+    font-size: 1.10rem;
+    padding: 10px;
+    text-decoration: none;
+}
+.portfolio{
+    /* margin-top: 5rem; */
+    text-align: center;
+    /* font-size: .1rem; */
+}
+
+
+.portfolio a img{
+    width: 100%;
+    max-width: 95%;
+}
+.portfolio h2{
+    font-size: 1rem;
+}
+
+@media(max-width: 768px){
+    #header{
+        background-color: black;
+    }
+  
+}

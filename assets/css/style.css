@@ -315,6 +315,13 @@
     margin: 2rem;
     
 }
+.ver-mais-portfolio a{
+    /* text-align: center; */
+    width: 100%;
+    max-width: 10%;
+    /* margin-top: 2vh ; */
+}
+
 /* CONTATO */
 #contato{
     font-family: 'Open Sans', sans-serif;
@@ -361,6 +368,12 @@
     .name-introducao {
         margin-left: -100px;
     }    
+    .ver-mais-portfolio a{
+        width: 100%;
+        max-width: 40%;
+        margin-top: 2vh ;
+        /* text-align:  jus; */
+    }
 }
 
 @media (max-width: 425px){
