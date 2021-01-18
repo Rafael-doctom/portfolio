@@ -1,68 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
-
-/* HEADER
-#header{
-    width: 100%;
-    position: fixed;
-    box-shadow: 0px 10px 10px rgba(177, 250, 32, 0.192);    
-    z-index: 999; 
-}
-
-.navbar ul li a{
-    color:white;
-    font-size: 1.10rem;
-    padding: 10px;
-    text-decoration: none;
-}
-.navbar{
-    background: #232323;
-}
-
-.navbar ul li a:hover{
-    cursor: pointer;
-    border-bottom: 2px solid rgb(80, 155, 226);
-}
-
-/*MAIN*/
-
-/* 
-
-#main{
-
-    height: 109vh;
-    align-items: center;
-    display: flex;
-    text-align: center;
-    background: black;
-    color: white;
-    padding-left: 15rem;
-    padding-top: 12rem;
-
-}
-
-.name-introducao {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-}
-.name-introducao img{
-    width: 150px;
-    height: 15%;
-    margin-bottom: 2rem;
-    margin-left: 70px;
-}
-.name-introducao span{
-    font-size: 3rem;
-    margin-top: -90px;
-}
-
-.imagem-ilustracao img{
-    width: 100%;
-    max-width: 60%;
-    margin-left: 50px;
-} */ 
-
 /* HEADER */
 #header{
     padding-top: 5vh;
@@ -93,12 +30,10 @@
 
 /* MAIN */
 #main{
-    /* height: 55vh; */
     background: black;
     color:white;
     display: flex;
     padding-bottom: 20vh;
-    /* font-family: 'Open Sans', sans-serif; */
 
 }
 #main .introducao{
@@ -107,16 +42,13 @@
     padding-top:20vh;
 }
 #main .introducao .text{
-    /* width: 110%; */
     display: flex;
     flex-direction: column;
-    /* max-width: 40% */
 }
 #main .introducao .text a{
     width: 100%;
     max-width: 40%;
     margin-top: 2vh ;
-    /* text-align:  jus; */
 }
 .introducao strong{
     font-weight: 900;
@@ -148,7 +80,6 @@
 /* SOBRE */
 #sobre{
     font-family: 'Open Sans', sans-serif;
-    /* height: 90vh; */
     text-align: center;
     align-items: center;
     background: #191919;
@@ -174,9 +105,7 @@
 }
 .redes-sociais{
     display: flex;
-    /* justify-content: ; */
-    /* text-align: center; */
-    /* align-items: center; */
+
 }
 .redes-sociais a{
     color: white;
@@ -191,7 +120,6 @@
     font-family: 'Open Sans', sans-serif;
     text-align: center;  
     padding: 5em;
-    /* margin: 50px; */
     background: black;
     color:white;
 }
@@ -207,8 +135,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* margin: 0% 10% 0% 10%; */
-    /* text-align: center; */
+    
     justify-content: center;
 }
 .servicos-flex img{
@@ -226,14 +153,10 @@
     width: 100%;
     max-width: 22%;
     box-shadow: 1px 1px 1px 1px  rgba(134, 139, 124, 0.555);    
-    /* height: 100%; */
-    /* max-height: 90vh; */
-    /* padding: 5rem; */
 }
 
 #servicos .text{
     width: 100%;
-    /* max-width: 60vw; */
     margin-top: 1rem;
     text-align: center;
 }
@@ -271,16 +194,13 @@
 .html, .css, .javascript, .mysql, .wordpress, .bootstrap{
     width: 100%;
     max-width: 30%;
-    /* margin-top: 5%; */
     margin-bottom: 10%;
 }
 .lista-estrelas{
     background-image: url(../img/estrela.svg) ;
-    /* background-size: 20px; */
     background-repeat: repeat-x;
     height: 20%;
     margin: 0 auto;
-    /* width: 100%; */
 }
 .habilidades-flex h5{
     color: rgb(228, 222, 222);
@@ -308,6 +228,7 @@
     width: 100%;
     max-width: 95%;
     margin: 10px;
+    
 }
 .lista-portfolio ul {
     flex-direction: row;
