@@ -191,7 +191,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.html, .css, .javascript, .mysql, .wordpress, .bootstrap{
+.html, .css, .javascript, .mysql, .wordpress, .bootstrap, .git, .github{
     width: 100%;
     max-width: 30%;
     margin-bottom: 10%;
