@@ -191,9 +191,14 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.html, .css, .javascript, .mysql, .wordpress, .bootstrap, .git, .github{
+.html, .css, .javascript, .mysql, .wordpress, .bootstrap,  .github{
     width: 100%;
     max-width: 30%;
+    margin-bottom: 10%;
+}
+.git{
+    width: 100%;
+    max-width: 80%;
     margin-bottom: 10%;
 }
 .lista-estrelas{
