@@ -196,11 +196,7 @@
     max-width: 30%;
     margin-bottom: 10%;
 }
-.git{
-    width: 100%;
-    max-width: 80%;
-    margin-bottom: 10%;
-}
+
 .lista-estrelas{
     background-image: url(../img/estrela.svg) ;
     background-repeat: repeat-x;
