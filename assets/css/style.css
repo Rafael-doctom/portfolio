@@ -353,7 +353,7 @@
     .habilidades-flex{
         flex-direction: row;
     }
-    .html, .css, .javascript, .mysql, .wordpress, .bootstrap{
+    .html, .css, .javascript, .mysql, .wordpress, .bootstrap, .github{
         max-width: 70%;
     }
     .lista-estrelas{
