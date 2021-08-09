@@ -191,12 +191,15 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.html, .css, .javascript, .mysql, .wordpress, .bootstrap,  .github{
+.html, .css, .javascript, .mysql, .wordpress, .bootstrap {
     width: 100%;
     max-width: 30%;
     margin-bottom: 10%;
 }
-
+.github{
+    width: 100%;
+    max-width: 40%;
+}
 .lista-estrelas{
     background-image: url(../img/estrela.svg) ;
     background-repeat: repeat-x;
