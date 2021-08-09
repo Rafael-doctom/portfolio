@@ -359,6 +359,9 @@
     .html, .css, .javascript, .mysql, .wordpress, .bootstrap{
         max-width: 70%;
     }
+    .github{
+        max-width: 40%;
+    }
     .lista-estrelas{
         background-image: url(../img/estrela.svg) ;
         background-repeat: repeat-x;
