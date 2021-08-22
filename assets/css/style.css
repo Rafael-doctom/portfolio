@@ -302,7 +302,12 @@
 }
 
 @media (max-width: 425px){
-    
+    /* .navbar-nav{
+        display:none;
+    } */
+    /* .navbar-toggler {
+        background-color: wheat;
+    } */
     .servicos-flex{
         flex-direction: column;
     }
