@@ -302,9 +302,9 @@
 }
 
 @media (max-width: 425px){
-    /* .navbar-nav{
+    .navbar-toggler{
         display:none;
-    } */
+    }
     /* .navbar-toggler {
         background-color: wheat;
     } */
