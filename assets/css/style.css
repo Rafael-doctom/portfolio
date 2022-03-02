@@ -37,9 +37,9 @@
 
 }
 #main .introducao{
-   
     padding: 2rem;
-    padding-top:20vh;
+    padding-top:30vh;
+
 }
 #main .introducao .text{
     display: flex;
